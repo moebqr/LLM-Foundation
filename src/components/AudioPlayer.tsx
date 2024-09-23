@@ -48,7 +48,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ src }) => {
   };
 
   const handleTimeChange = (newValue: number[]) => {
-    const [time] = newValue;
+    const time = newValue[0] ?? 0; // Use 0 as a fallback if newValue[0] is undefined
     if (audioRef.current) {
       audioRef.current.currentTime = time;
       setCurrentTime(time);
@@ -56,7 +56,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ src }) => {
   };
 
   const handleVolumeChange = (newValue: number[]) => {
-    const [vol] = newValue;
+    const vol = newValue[0] ?? 0; // Use 0 as a fallback if newValue[0] is undefined
     setVolume(vol);
     if (audioRef.current) {
       audioRef.current.volume = vol;
