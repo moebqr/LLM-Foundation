@@ -12,7 +12,7 @@ export function Hero() {
         transition={{ duration: 0.2, ease: "easeOut" }}
       >
         <motion.p
-          className="whitespace-pre-wrap text-center text-5xl font-medium tracking-tighter text-black py-2 mx-5"
+          className="whitespace-pre-wrap text-center text-5xl font-medium tracking-tighter text-black px-4 py-2 mx-5"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.6 }}
@@ -20,7 +20,7 @@ export function Hero() {
             Introduction to LLMs
             </motion.p>
             <motion.p
-            className="text-center text-xl text-muted-foreground"
+            className="text-center text-xl text-muted-foreground px-4"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.6 }}
