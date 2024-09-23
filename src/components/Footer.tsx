@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="mt-12 text-center text-muted-foreground">
+    <footer className="mt-12 text-center text-muted-foreground pt-8 pb-16 bg-gray-50">
         <p>
             Made & Compiled by
             <Button variant="link" asChild>

@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
 const HowToUse: React.FC = () => {
   return (
-    <Card className="mb-8">
+    <Card className="mb-12">
       <CardHeader>
         <CardTitle>How to Use This Page</CardTitle>
       </CardHeader>
