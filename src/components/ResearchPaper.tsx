@@ -1,6 +1,9 @@
 import React from 'react';
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "../components/ui/card";
-import { Button } from "../components/ui/button";
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "./ui/card";
+import { Button } from "./ui/button";
+import AudioPlayer from './AudioPlayer';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "./ui/dialog";
+import { Headphones } from 'lucide-react';
 
 interface ResearchPaperProps {
   title: string;
@@ -24,7 +27,7 @@ const ResearchPaper: React.FC<ResearchPaperProps> = ({
       </CardHeader>
       <CardContent>
         <p className="text-muted-foreground mb-2">{summary}</p>
-        <p className="text-sm text-muted-foreground">
+        <p className="text-sm text-muted-foreground mb-4">
           Authors: {authors.join(', ')}
         </p>
       </CardContent>
@@ -34,11 +37,20 @@ const ResearchPaper: React.FC<ResearchPaperProps> = ({
             Open PDF
           </a>
         </Button>
-        <Button asChild>
-          <a href={podcastUrl} target="_blank" rel="noopener noreferrer">
-            Listen to Podcast
-          </a>
-        </Button>
+        <Dialog>
+          <DialogTrigger asChild>
+            <Button variant="outline">
+              <Headphones className="mr-2 h-4 w-4" />
+              Listen to Podcast
+            </Button>
+          </DialogTrigger>
+          <DialogContent className="sm:max-w-[400px] md:max-w-[700px]">
+            <DialogHeader>
+              <DialogTitle>Listen to Podcast</DialogTitle>
+            </DialogHeader>
+            <AudioPlayer src={podcastUrl} />
+          </DialogContent>
+        </Dialog>
       </CardFooter>
     </Card>
   );
