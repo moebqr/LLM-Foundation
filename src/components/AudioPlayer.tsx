@@ -39,7 +39,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ src }) => {
 
   const togglePlay = () => {
     if (audioRef.current?.paused) {
-      audioRef.current.play();
+      void audioRef.current.play();
       setIsPlaying(true);
     } else {
       audioRef.current?.pause();
