@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
         <p>
             Made & Compiled by
             <Button variant="link" asChild>
-                <a href="https://github.com/moebqr" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/moebqr" className='dark:text-black' target="_blank" rel="noopener noreferrer">
                     Mohamed Alderazi
                 </a>
             </Button>
@@ -19,6 +19,7 @@ const Footer: React.FC = () => {
             href="https://github.com/yourusername/llm-research-papers"
             target="_blank"
             rel="noopener noreferrer"
+            className='dark:text-black'
           >
             GitHub
           </a>

@@ -12,7 +12,7 @@ export function Hero() {
         transition={{ duration: 0.2, ease: "easeOut" }}
       >
         <motion.p
-          className="whitespace-pre-wrap text-center text-5xl font-medium tracking-tighter text-black px-4 py-2 mx-5"
+          className="whitespace-pre-wrap text-center text-5xl font-medium tracking-tighter text-black dark:text-white px-4 py-2 mx-5"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.6 }}
