@@ -6,7 +6,6 @@ import Footer from '../components/Footer';
 import HowToUse from '../components/HowToUse';
 import { RainbowButton } from "../components/magicui/rainbow-button";
 
-
 const researchPapers = [
   {
     title: "Attention Is All You Need",
