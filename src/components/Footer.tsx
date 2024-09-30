@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
         View the source code on
         <Button variant="link" asChild>
           <a
-            href="https://github.com/yourusername/llm-research-papers"
+            href="https://github.com/moebqr/LLM-Foundation"
             target="_blank"
             rel="noopener noreferrer"
             className='dark:text-black'
