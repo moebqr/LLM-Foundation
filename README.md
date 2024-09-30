@@ -9,7 +9,7 @@ That’s why I built this site—curating **12 of the most influential papers on
 
 ## 🛠️ Tech Stack
 
-This project was built using a modern and robust tech stack:
+This project was built using the [T3 Stack](https://create.t3.gg/):
 
 - [Next.js](https://nextjs.org): A React framework for building server-side rendered and statically generated web applications
 - [React](https://reactjs.org): A JavaScript library for building user interfaces
