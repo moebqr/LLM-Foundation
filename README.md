@@ -7,14 +7,7 @@ I often get asked: *“How do I start learning about LLMs?”* The field can be 
 That’s why I built this site—curating **12 of the most influential papers on LLMs and Transformers** and pairing each with an **AI-generated podcast** to make learning both engaging and convenient. My goal is to help others get up to speed and stay ahead in the AI landscape by exploring foundational concepts in a more digestible format.
 
 
-🛠️ Tech Stack
-
-- Curated selection of influential AI research papers
-- Concise summaries of each paper
-- Audio versions for on-the-go learning
-- User-friendly interface for easy navigation
-
-## Tech Stack
+## 🛠️ Tech Stack
 
 This project was built using a modern and robust tech stack:
 
