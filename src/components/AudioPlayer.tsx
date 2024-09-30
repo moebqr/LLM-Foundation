@@ -82,7 +82,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ src }) => {
       <audio ref={audioRef} src={src} />
       <div className="flex items-center space-x-2">
         <Button variant="outline" size="icon" onClick={togglePlay} className='w-12 h-10'>
-          {isPlaying ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
+          {isPlaying ? <Pause className="h-4 w-auto" /> : <Play className="h-4 w-4" />}
         </Button>
         <span className="text-sm">{formatTime(currentTime)}</span>
         <Slider
