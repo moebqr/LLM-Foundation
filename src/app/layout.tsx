@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "Introduction to LLMs",
     images: [
       {
-        url: "https://llm.mohamedalderazi.com/assets/preview.png",
+        url: "https://llm.mohamedalderazi.com/assets/preview.png", 
         width: 1200,
         height: 630,
       },
