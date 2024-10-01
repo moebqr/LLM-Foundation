@@ -17,6 +17,7 @@ This project was built using the [T3 Stack](https://create.t3.gg/):
 - [Tailwind CSS](https://tailwindcss.com): A utility-first CSS framework for rapidly building custom designs
 - [Shadcn UI](https://ui.shadcn.com): A collection of re-usable components built using Radix UI and Tailwind CSS
 - [Vercel](https://vercel.com): A cloud platform for static sites and Serverless Functions that fits perfectly with Next.js for deployment
+- NotebookLM: A helpful research / notes platform by Google, I utilized it to generate the podcasts for each research paper.
 
 
 The combination of these technologies allows for a fast, responsive, and visually appealing user experience while maintaining code quality and developer productivity (got to build the entire site in less than a couple of hours).
